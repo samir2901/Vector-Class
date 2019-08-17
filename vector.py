@@ -1,6 +1,5 @@
 '''
 Vector Class in python for doing vector math.
-Vector2 is for making 2-D vectors.
 '''
 from math import *
 
@@ -47,22 +46,5 @@ class Vector:
          c = self.x*v.y - self.y*v.x
          return Vector(a,b,c)
 
-    def dir_x(self):
-        pass
-
-
-v1 = Vector(1,1,1)
-v2 = Vector(1,1,1)
-z = v1.cross(v2)
-z.add(v1)
-z.showVector()
-
-
-
-
-
-
-
-
-
+    
 
